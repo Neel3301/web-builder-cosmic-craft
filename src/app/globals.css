@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Sub Scrollbar  */
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #00b6ff;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #00b7ff88;
+}
+
+/* Main Scrollbar  */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #00b6ff;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00b7ff88;
+}
+
+/* html {
+  overflow-x: hidden;
+} */
+
+/* Input  */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
