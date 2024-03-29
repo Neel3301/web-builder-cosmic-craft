@@ -109,7 +109,7 @@ const Navbar_Studio = ({ templateId }: any) => {
           className={`${titillium_Web.className} h-full border-l-2 border-r-2  border-[#f2f2f2]  `}
         >
           <Link
-            href={`/`}
+            href={`https://github.com/Neel3301/web-builder-cosmic-craft`}
             className={`flex h-full items-center justify-center gap-[8px] px-[12px] text-[16px] hover:text-main`}
           >
             <Image
